@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#E91E8C</color>       <!-- Rosa fuerte (botón principal) -->
+    <color name="colorAccent">#FF80AB</color>         <!-- Rosa claro (acentos) -->
+    <color name="colorFondo">#FCE4EC</color>          <!-- Rosa muy suave (fondo) -->
+    <color name="colorTextoSecundario">#AD1457</color><!-- Rosa oscuro (texto secundario) -->
+</resources>
