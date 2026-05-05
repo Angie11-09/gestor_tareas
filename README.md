@@ -1,3 +1,4 @@
+Angie Verónica Atehortúa Morales 
 # Gestor de Tareas - Android
 
 ## Descripción
