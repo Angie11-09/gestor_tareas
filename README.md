@@ -1,34 +1,32 @@
-Angie Verónica Atehortúa Morales 
 # Gestor de Tareas - Android
 
+**Autor:** Angie Verónica Atehortúa Morales
+**Fecha:** Junio 2026
+
 ## Descripción
-Aplicación Android para gestionar tareas con base de datos local SQLite.
+Aplicación Android para gestionar tareas con sincronización en tiempo real usando Firebase Firestore.
 
 ## Funcionalidades
 - Crear tareas con título, descripción y estado
-- Buscar tarea por ID
+- Buscar tarea por ID de documento
 - Editar tarea existente
 - Eliminar tarea
-- Ver todas las tareas en lista
+- Ver todas las tareas en tiempo real con SnapshotListener
+- Validación de campos con TextWatcher
+- Actualización en tiempo real con Firebase Firestore
 
 ## Tecnologías usadas
 - Java
-- SQLite (SQLiteOpenHelper)
+- Firebase Firestore (NoSQL en la nube)
 - RecyclerView + Adapter
-- LinearLayout
+- MaterialCardView con sombras y bordes redondeados
+- TextInputLayout de Material Design
+- Chips de estado (Pendiente / Completada)
 
-## Temas vistos en clase aplicados
-- Clase 1: Widgets básicos, eventos onClick, Toast
-- Clase 2: AdminSQLiteOpenHelper, creación de BD local
-- Clase 3: CRUD completo con ContentValues, rawQuery, delete, update
-- Clase 4: Clase modelo (Tarea.java), RecyclerView, Adapter, ViewHolder
+## Evidencia
 
-  ## Agregar una tarea
-  <img width="503" height="852" alt="Captura de pantalla 2026-05-04 211722" src="https://github.com/user-attachments/assets/c2443257-7bc7-47ee-bd4f-4141ad936e56" />
-  <img width="403" height="846" alt="Captura de pantalla 2026-05-04 214345" src="https://github.com/user-attachments/assets/f84a520c-bcc7-4240-a46e-bcccd53663c4" />
+### Validación de datos
+<img width="505" height="853" alt="Captura de pantalla 2026-06-09 192252" src="https://github.com/user-attachments/assets/219865af-1f21-478b-9456-3bd2a479fcf9" />
 
-  ## Eliminar una tarea (Tarea de inglés)
-  <img width="399" height="848" alt="Captura de pantalla 2026-05-04 214517" src="https://github.com/user-attachments/assets/014f3156-6f2c-4f1a-a756-c009c333e1d7" />
-
-  ## Editar (cambio de entrenar para la media maraton por la carrera y la hora para entrenar)
-<img width="425" height="848" alt="image" src="https://github.com/user-attachments/assets/803dbde3-40ed-4caa-b44d-82da391c12ac" />
+### Actualización en tiempo real en la base de datos
+<img width="1010" height="366" alt="image" src="https://github.com/user-attachments/assets/5604a7f9-43ef-40eb-b962-65ad95e5e762" />
