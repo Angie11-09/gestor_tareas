@@ -29,12 +29,11 @@ public class TareaAdapter extends RecyclerView.Adapter<TareaAdapter.TareaViewHol
     public void onBindViewHolder(@NonNull TareaViewHolder holder, int posicion) {
         Tarea tareaActual = listaTareas.get(posicion);
 
-        holder.tvId.setText("#" + tareaActual.getId());
         holder.tvTitulo.setText(tareaActual.getTitulo());
         holder.tvDescripcion.setText(tareaActual.getDescripcion());
         holder.tvEstado.setText(tareaActual.getEstado());
+        holder.tvId.setText("ID: " + tareaActual.getDocumentId());
 
-        // Verde si completada, rojo si pendiente
         if (tareaActual.getEstado().equals("Completada")) {
             holder.tvEstado.setTextColor(Color.parseColor("#4CAF50"));
         } else {
